@@ -10,7 +10,7 @@ from time import *
 # Definizione della funzione per decriptare
 
 def decript():
-    code_to_cifrate = input("\nInserisci il codice da decifrare: ")
+    code_to_cifrate = input("\nEnter the text you want to decrypt: ")
 
     code_to_cifrate_list = list(code_to_cifrate)
 
@@ -36,7 +36,7 @@ def decript():
 # Definizione della funzione per criptare i file
 
 def cript():
-    cifrate_code = input("\nInserisci la frase o la parola da cifrare: ")
+    cifrate_code = input("\nEnter the text you want to encrypt: ")
 
     cifrate_code_list = list(cifrate_code)
 
@@ -61,7 +61,7 @@ def cript():
 # Definizione dell'input dell'utente
 
 
-choose = input("Scrivi 1 se vuoi decriptare, 2 se encriptare oppure 3 per uscire: ")
+choose = input("Press 1 to decrypt, press 2 to encrypt or 3 to exit: ")
 
 if choose ==  "1":
 
